@@ -47,12 +47,6 @@ const Navbar = () => {
         <TransparentBtn text="Connect Wallet" />
       </div>
       {/* Desktop Navigation */}
-      {/* <div className="sm:flex hidden items-center justify-center gap-6">
-        
-      </div> */}
-
-      {/* Mobile Navigation  */}
-      {/* <div className="sm:hidden flex relative"></div> */}
     </nav>
   );
 };
