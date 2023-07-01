@@ -1,5 +1,6 @@
 import AmazeNFT from "@/components/AmazeNFT/AmazeNFT";
 import CollectionNFT from "@/components/CollectionNFT/CollectionNFT";
+import CreateAndSell from "@/components/CreateAndSell/CreateAndSell";
 import HeroBanner from "@/components/HeroBanner/HeroBanner";
 import TopCollectionOver from "@/components/TopCollectionOver/TopCollectionOver";
 import Image from "next/image";
@@ -11,6 +12,7 @@ export default function Home() {
       <AmazeNFT />
       <TopCollectionOver />
       <CollectionNFT />
+      <CreateAndSell />
     </main>
   );
 }
